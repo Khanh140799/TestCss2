@@ -1,0 +1,298 @@
+.page{
+    width: 100vw;
+    margin-left: -2rem;
+    background-color: white;
+    text-align: left;
+}
+.contain{
+    width: 1200px;
+    margin:auto
+}
+.product{
+    display:flex;
+    margin-bottom: 5rem;
+}
+.basic,
+.advanced,
+.life{
+    width: 400px;
+    margin-top: 5rem;
+}
+.basic_price,
+.advanced_price,
+.life_price{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color:rgb(57, 61, 80) ;
+    color: white;
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 1rem;
+    text-align: center;
+}
+.basic_name,
+.advanced_name,
+.life_name{
+    height: 16rem;
+}
+.basic_name{
+    background-color: rgb(0, 188, 212);
+}
+.advanced_name{
+    background-color:rgb(28, 148, 202) ;
+}
+.life_name{
+    background-color:rgb(114, 100, 189) ;
+}
+.basic_name_1,
+.life_name_1{
+    font-size: 36px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 7;
+    text-align: left;
+    margin-left: 3rem;
+}
+.basic_name_2,
+.life_name_2{
+    font-size: 36px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight:normal;
+    text-transform: uppercase;
+    margin-top: -5rem;
+    margin-left: 3rem;
+}
+.advanced_name_1{
+    font-size: 36px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 3rem;
+    line-height: 6;
+}
+.advanced_name_2{
+    font-size: 36px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight:normal;
+    text-transform: uppercase;
+    margin-top: -5rem;
+    margin-left: 3rem;
+}
+.advanced_name_0{
+    font-size: 14px;
+    font-family: "SourceSansPro";
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 3rem;
+    line-height: 28;
+}
+.basic_p1,
+.advanced_p1,
+.life_p1{
+    font-size: 32px;
+    font-family: "SourceSansPro";
+    line-height: 3;
+}
+.basic_p1{
+    color: rgb(4, 215, 242);
+} 
+.advanced_p1{
+    color:rgb(28, 148, 202)
+}
+.life_p1{
+    color:rgb(114, 100, 189)    
+}
+.basic_p2,
+.advanced_p2,
+.life_p2{
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(153, 169, 181);
+    margin-top: -2rem;
+}
+.border{
+    border-style: solid;
+    border-color: rgb(223, 229, 232);
+    border-width: 1px;
+}
+.basic_title,
+.advanced_title,
+.life_title{
+    height: 6rem;
+}
+.basic_title_1,
+.advanced_title_1,
+.life_title_1{
+    font-size: 24px;
+    font-family: "SourceSansPro";
+    color: rgb(95, 114, 127);
+    line-height: 3;
+    margin-left: 3rem;
+}
+.basic_title_2,
+.advanced_title_2,
+.life_title_2{
+    font-size: 14px;
+    font-family: "SourceSansPro";
+    color: rgb(153, 169, 181);
+    margin-left: 3rem;
+    margin-top: -1rem;
+}
+.advanced_l1,
+.advanced_l2,
+.advanced_l3,
+.advanced_l4,
+.advanced_l5,
+.basic_l1,
+.basic_l3,
+.basic_l2,
+.basic_l4,
+.basic_l5,
+.life_l1,
+.life_l2,
+.life_l3,
+.life_l4,
+.life_l5{
+    display: flex;
+    height: 3rem;
+    margin-left: 3rem;
+}
+.advanced_l1_1,
+.advanced_l2_1,
+.advanced_l3_1,
+.advanced_l4_1,
+.advanced_l5_1,
+.basic_l1_1,
+.basic_l3_1,
+.basic_l2_1,
+.basic_l4_1,
+.basic_l5_1,
+.life_l1_1,
+.life_l2_1,
+.life_l3_1,
+.life_l4_1,
+.life_l5_1{
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(95, 114, 127);
+    line-height: 3;
+    margin-left: 1rem;
+}
+.advanced_l1,
+.advanced_l3,
+.advanced_l5,
+.basic_l1,
+.basic_l3,
+.basic_l5,
+.life_l1,
+.life_l3,
+.life_l5{
+    background-color: rgb(244, 246, 247);
+}
+.advanced_check,
+.life_check{
+    margin-top: 0.7rem;
+}
+.basic_btn,
+.advanced_btn,
+.life_btn{
+    height: 3rem;
+    width: 10rem;
+    margin: 3rem auto 4rem 3rem;
+    font-size: 19px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 188, 212);
+    background-color: rgb(182, 198, 201);
+    border-radius: 1.5rem;
+}
+.basic:hover,
+.advanced:hover,
+.life:hover{
+    cursor: pointer;
+}
+.basic:hover .basic_btn,
+.advanced:hover .advanced_btn,
+.life:hover .life_btn{
+    background-color: black;
+}
+.basic_btn:hover,
+.advanced_btn:hover,
+.life_btn:hover{
+    cursor: pointer;
+}
+.icon_check{
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    margin-top:0.7rem;
+}
+.basic_check{
+    margin-left: -4px;
+}
+.new{
+    position: absolute;
+    background-color: aqua;
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 4;
+    margin-top: -290px;
+    margin-left: 125px;
+}
+.icon_check:hover{
+    cursor: pointer;
+}
+.basic_checkbox{
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+}
+@media (max-width:1023px){
+    .contain{
+        width: 600px;
+    }
+    .basic,
+    .advanced,
+    .life{
+        width: 500px;
+        margin-top: 100px;
+    }
+    .product{
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:739px){
+    .contain{
+        width: 500px;
+    }
+    .basic,
+    .advanced,
+    .life{
+        width: 400px;
+        margin-top: 50px;
+    }
+    .product{
+        display: block;
+    }
+}
